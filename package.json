@@ -1,0 +1,16 @@
+{
+  "name": "fis3-deploy-upyun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "single-line-log": "^1.1.2",
+    "upyun": "^3.3.4"
+  }
+}
