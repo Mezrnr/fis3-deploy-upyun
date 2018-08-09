@@ -1,4 +1,3 @@
-let ftp = require('ftp');
 let fs = require('fs');
 let path = require('path');
 let async = require('async');
