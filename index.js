@@ -24,7 +24,9 @@ module.exports = (options, modified, total, callback) => {
     let uploadCount = 0;
     let progressCount = 0;
     let errorFile = [];
-
+    
+    if(uploadTotal == 0)
+        console.log('有0个文件需要上传'.green);return;
 
     let cb = () => {
         progressCount++;
